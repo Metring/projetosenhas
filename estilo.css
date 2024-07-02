@@ -44,7 +44,7 @@ body{
     margin-top: 80px;
 }
 
-conteudo-senha{
+.conteudo-senha{
     margin-top: 80px;
     background-color: var(--fundo-senha);
     padding: 24px;
