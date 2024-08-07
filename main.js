@@ -7,6 +7,12 @@ botoes[1].onclick = aumentarTamanho
 let tamanhoSenha = 5
 numeroSenha.textContent = tamanhoSenha
 
+let maiuscula = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+let minuscula = "abcdefghijklmnoprrstuvwxyz"
+let numero = "0123456789"
+let simbolo = "!?@%&"
+console.log(maiuscula)
+
 function diminuirTamanho() {
     console.log('teste');
     tamanhoSenha = tamanhoSenha -1
