@@ -58,6 +58,15 @@ body{
     justify-content: center;
 }
 
+#campo-senha{
+    background-color: var(--cor-de-texto);
+    border: none;
+    color: var(--cor-de-texto);
+    font-size: 40px;
+    margin-left: 40px;
+    
+}
+
 #campo-senha:focus{
     outline: none;
     background-color: var(--fundo-texto);
