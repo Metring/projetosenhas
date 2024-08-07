@@ -51,6 +51,13 @@ body{
     border-bottom: 6px solid var(--borda);
 }
 
+.parametro--coluna-senha{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 #campo-senha:focus{
     outline: none;
     background-color: var(--fundo-texto);
