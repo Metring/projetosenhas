@@ -117,13 +117,6 @@ body{
     justify-content: center;
 }
 
-.parametro{ 
-    background-color: var(--fundo-texto);
-    border: 2px solid var(--borda);
-    margin-top: 32px;
-    padding: 24px;
-}
-
 .parametro-titulo{
     font-size: 28px;
 }
@@ -142,15 +135,6 @@ body{
     border-bottom: 2px solid var(--borda);
     margin: 0;
     font-size: 24px;
-}
-
-.parametro-senha_botao{
-    background-color: var(--cor-de-fundo);
-    color: var(--cor-de-texto);
-    border: 2px solid var(--borda);
-    padding: 24px;
-    font-size: 24px;
-    cursor: pointer;
 }
 
 .barra{ 
