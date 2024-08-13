@@ -73,12 +73,13 @@ body{
 }
 
 #campo-senha{
+
     background-color: var(--cor-de-texto);
     border: none;
     color: var(--cor-de-texto);
     font-size: 40px;
     margin-left: 40px;
-    
+    width: 70%;
 }
 
 #campo-senha:focus{
@@ -91,9 +92,10 @@ body{
     width: 70%;
 }
 
-.conteudo{
-    max-width: 1200px;
-    margin: 0 auto;
+.parametro--coluna-senha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .parametro{ 
@@ -107,11 +109,7 @@ body{
     font-size: 28px;
 }
 
-.parametro--coluna-senha{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+
  HEAD
 
 .parametro-senha{ 
