@@ -122,7 +122,7 @@ body{
 }
 
 .barra{ 
-    background-color: var(--cor-de-fundo);
+    background-color: var(--cor-de-senha);
     height: 30px;
     width: 100%;
 }
